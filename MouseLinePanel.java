@@ -4,10 +4,10 @@ import java.awt.event.*;
 import java.util.*;
 
 /**
- * Write a description of class MouseLinePanel here.
+ * Class that draws a line on a contrasting background
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Tucker Tavarone)
+ * @version (3/5/18)
  */
 public class MouseLinePanel extends JPanel implements MouseListener, MouseMotionListener
 {
@@ -25,7 +25,7 @@ public class MouseLinePanel extends JPanel implements MouseListener, MouseMotion
         setPreferredSize(new Dimension(500, 500));
         width = getPreferredSize().width;
         height = getPreferredSize().height;
-        setBackground( Color.BLACK );
+        setBackground( Color.GREEN );
 
         listOfPositions = new Vector<>();
 
