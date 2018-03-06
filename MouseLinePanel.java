@@ -25,7 +25,8 @@ public class MouseLinePanel extends JPanel implements MouseListener, MouseMotion
         setPreferredSize(new Dimension(500, 500));
         width = getPreferredSize().width;
         height = getPreferredSize().height;
-        setBackground( Color.GREEN );
+        final Color FOREST_GREEN = new Color(22, 106, 53);
+        setBackground( FOREST_GREEN );
 
         listOfPositions = new Vector<>();
 
